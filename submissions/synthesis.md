@@ -1,6 +1,6 @@
 # Private Human Gate
 
-- **Repo:** TODO_GITHUB_URL/Synthesis-SelfProtocol
+- **Repo:** https://github.com/CrystallineButterfly/Synthesis-SelfProtocol
 - **Primary track:** SelfProtocol
 - **Overlap targets:** Venice Private Agents, MetaMask Delegations, ENS, Lido stETH Treasury, Uniswap Agentic Finance, Status L2
 - **Primary contract:** SelfGateRegistry
