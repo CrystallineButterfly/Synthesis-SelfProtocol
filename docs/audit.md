@@ -43,6 +43,14 @@ when live network credentials are absent. Network-only partners still report mis
 `cast send` output is now parsed for `transactionHash` explicitly before falling back to the
 raw stdout payload.
 
+## Track-specific trust boundaries
+
+- primary wrapper contract: `SelfGateRegistry`
+- live-only partners: SelfProtocol, Venice, Uniswap, Status L2
+- offline-prepared partners: MetaMask Delegations (prepared_contract_call), ENS (prepared_contract_call), Lido (prepared_contract_call)
+- highest-sensitivity actions: selfprotocol_zk_verify, venice_private_analysis, metamask_delegations_delegate_scope
+- latest verification artifact: `artifacts/verification/0x83c65147c765c452979c0f960702813bf08920c02944c53ce4ead79a61ea6470.json`
+
 ## Current posture
 
 ### Good

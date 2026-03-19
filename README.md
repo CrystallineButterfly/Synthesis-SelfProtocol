@@ -5,7 +5,7 @@
 - **Category:** identity
 - **Primary contract:** `SelfGateRegistry`
 - **Primary module:** `self_gate`
-- **Submission status:** implementation ready, waiting for credentials and TxIDs.
+- **Submission status:** audited and offline-demo ready; optional live partner credentials unlock network execution.
 
 ## What this repo does
 
@@ -67,6 +67,33 @@ flowchart TD
 3. Persist a dry-run artifact before any live execution.
 4. Enforce onchain policy through the guarded contract wrapper.
 5. Verify outputs, update receipts, and render submission material.
+
+## Current readiness
+
+- **Latest verification:** `verified` at `2026-03-19T03:52:18+00:00`
+- **Execution mode:** `offline_prepared`
+- **Offline-prepared partners:** MetaMask Delegations (prepared_contract_call), ENS (prepared_contract_call), Lido (prepared_contract_call)
+- **Live credential blockers:** SelfProtocol, Venice, Uniswap, Status L2
+- **Audit docs:** `docs/audit.md`, `docs/live_readiness.md`
+
+## Most sensitive actions
+
+- `selfprotocol_zk_verify` (SelfProtocol, high)
+- `venice_private_analysis` (Venice, high)
+- `metamask_delegations_delegate_scope` (MetaMask Delegations, high)
+
+## Live blocker details
+
+- **SelfProtocol** — SELF_PROTOCOL_API_KEY, SELF_VERIFICATION_URL — https://docs.self.xyz/
+- **Venice** — VENICE_API_KEY, VENICE_CHAT_COMPLETIONS_URL, VENICE_MODEL — https://docs.venice.ai/
+- **Uniswap** — UNISWAP_API_KEY, UNISWAP_QUOTE_URL — https://developers.uniswap.org/
+- **Status L2** — STATUS_RPC_URL, STATUS_RELAYER_URL — https://status.app/
+
+## Latest evidence artifacts
+
+- `artifacts/onchain_intents/metamask_delegations_delegate_scope.json`
+- `artifacts/onchain_intents/ens_ens_publish.json`
+- `artifacts/onchain_intents/lido_yield_route.json`
 
 ## Security controls
 
