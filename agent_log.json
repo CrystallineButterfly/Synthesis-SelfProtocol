@@ -7,5 +7,581 @@
     "details": {
       "status": "ready_for_credentials"
     }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:20+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "identity_state",
+          "description": "Names, wallets, manifests, and verification proofs.",
+          "score": 95
+        },
+        {
+          "name": "permissions",
+          "description": "Which principals can act on which rails.",
+          "score": 90
+        },
+        {
+          "name": "reputation_events",
+          "description": "Receipts, scores, and attestation updates.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Submission notes and public evidence links.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:20+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan.",
+    "details": {
+      "plan_id": "0x46995c6912bd1bb5f6f8b27a84c9627a32979233e71a2f5e4e27bd7bf246c72c"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:20+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0xc5fe8c8956d668a5034815c06236f9e2c6fa881c9751194843d86d074ad20a7d"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:20+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Skipped live execution.",
+    "details": {
+      "missing_env": [
+        "ENS_NAME",
+        "RPC_URL",
+        "SELF_PROTOCOL_API_KEY",
+        "SELF_VERIFICATION_URL",
+        "STATUS_RELAYER_URL",
+        "STATUS_RPC_URL",
+        "UNISWAP_API_KEY",
+        "UNISWAP_QUOTE_URL",
+        "VENICE_API_KEY",
+        "VENICE_CHAT_COMPLETIONS_URL",
+        "VENICE_MODEL"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:20+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Private Human Gate",
+      "track": "SelfProtocol",
+      "plan_id": "0x46995c6912bd1bb5f6f8b27a84c9627a32979233e71a2f5e4e27bd7bf246c72c",
+      "simulation_hash": "0xc5fe8c8956d668a5034815c06236f9e2c6fa881c9751194843d86d074ad20a7d",
+      "execution_status": "awaiting_credentials",
+      "tx_ids": [],
+      "created_at": "2026-03-19T03:30:20+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:20+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "identity_state",
+          "description": "Names, wallets, manifests, and verification proofs.",
+          "score": 95
+        },
+        {
+          "name": "permissions",
+          "description": "Which principals can act on which rails.",
+          "score": 90
+        },
+        {
+          "name": "reputation_events",
+          "description": "Receipts, scores, and attestation updates.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Submission notes and public evidence links.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:20+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan.",
+    "details": {
+      "plan_id": "0x46995c6912bd1bb5f6f8b27a84c9627a32979233e71a2f5e4e27bd7bf246c72c"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:20+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0xc5fe8c8956d668a5034815c06236f9e2c6fa881c9751194843d86d074ad20a7d"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:20+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Skipped live execution.",
+    "details": {
+      "missing_env": [
+        "ENS_NAME",
+        "RPC_URL",
+        "SELF_PROTOCOL_API_KEY",
+        "SELF_VERIFICATION_URL",
+        "STATUS_RELAYER_URL",
+        "STATUS_RPC_URL",
+        "UNISWAP_API_KEY",
+        "UNISWAP_QUOTE_URL",
+        "VENICE_API_KEY",
+        "VENICE_CHAT_COMPLETIONS_URL",
+        "VENICE_MODEL"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:20+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Private Human Gate",
+      "track": "SelfProtocol",
+      "plan_id": "0x46995c6912bd1bb5f6f8b27a84c9627a32979233e71a2f5e4e27bd7bf246c72c",
+      "simulation_hash": "0xc5fe8c8956d668a5034815c06236f9e2c6fa881c9751194843d86d074ad20a7d",
+      "execution_status": "awaiting_credentials",
+      "tx_ids": [],
+      "created_at": "2026-03-19T03:30:20+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:39:23.678178+00:00",
+    "stage": "security_review",
+    "actor": "audit_pass",
+    "message": "Completed the shared hardening and offline-artifact audit pass.",
+    "details": {
+      "status": "audited_ready_pending_live_credentials",
+      "primary_contract": "SelfGateRegistry.sol"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:49:05+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "identity_state",
+          "description": "Names, wallets, manifests, and verification proofs.",
+          "score": 95
+        },
+        {
+          "name": "permissions",
+          "description": "Which principals can act on which rails.",
+          "score": 90
+        },
+        {
+          "name": "reputation_events",
+          "description": "Receipts, scores, and attestation updates.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Submission notes and public evidence links.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:49:05+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every repo action.",
+    "details": {
+      "plan_id": "0x4edfcd4edab5f253b8addcef6eb72a0d0f51cc34bb601b7a87ce190389274b73",
+      "action_count": 7
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:49:05+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0x11c90727fbe0cca8bd7175d848c6387c880f2cab9a6dbdf3516ce57650c5f123"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:49:05+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [
+        "SELF_PROTOCOL_API_KEY",
+        "SELF_VERIFICATION_URL",
+        "STATUS_RELAYER_URL",
+        "STATUS_RPC_URL",
+        "UNISWAP_API_KEY",
+        "UNISWAP_QUOTE_URL",
+        "VENICE_API_KEY",
+        "VENICE_CHAT_COMPLETIONS_URL",
+        "VENICE_MODEL"
+      ],
+      "artifact_count": 3
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:49:05+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Private Human Gate",
+      "track": "SelfProtocol",
+      "plan_id": "0x4edfcd4edab5f253b8addcef6eb72a0d0f51cc34bb601b7a87ce190389274b73",
+      "simulation_hash": "0x11c90727fbe0cca8bd7175d848c6387c880f2cab9a6dbdf3516ce57650c5f123",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/onchain_intents/metamask_delegations_delegate_scope.json",
+        "artifacts/onchain_intents/ens_ens_publish.json",
+        "artifacts/onchain_intents/lido_yield_route.json"
+      ],
+      "partner_statuses": {
+        "SelfProtocol": "awaiting_credentials",
+        "Venice": "awaiting_credentials",
+        "MetaMask Delegations": "prepared_contract_call",
+        "ENS": "prepared_contract_call",
+        "Lido": "prepared_contract_call",
+        "Uniswap": "awaiting_credentials",
+        "Status L2": "awaiting_credentials"
+      },
+      "created_at": "2026-03-19T03:49:05+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:48+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "identity_state",
+          "description": "Names, wallets, manifests, and verification proofs.",
+          "score": 95
+        },
+        {
+          "name": "permissions",
+          "description": "Which principals can act on which rails.",
+          "score": 90
+        },
+        {
+          "name": "reputation_events",
+          "description": "Receipts, scores, and attestation updates.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Submission notes and public evidence links.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:48+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every repo action.",
+    "details": {
+      "plan_id": "0x2bc5f23393d99e7b780f44752e0e31272c8d4ae180d3cee4b363f1e6f49ffce5",
+      "action_count": 7
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:48+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0xa9b15ede4fbf5cd4176646696431270acaf1f41514a1c409b70a33bd1435a5b8"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:48+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [
+        "SELF_PROTOCOL_API_KEY",
+        "SELF_VERIFICATION_URL",
+        "STATUS_RELAYER_URL",
+        "STATUS_RPC_URL",
+        "UNISWAP_API_KEY",
+        "UNISWAP_QUOTE_URL",
+        "VENICE_API_KEY",
+        "VENICE_CHAT_COMPLETIONS_URL",
+        "VENICE_MODEL"
+      ],
+      "artifact_count": 3
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:48+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Private Human Gate",
+      "track": "SelfProtocol",
+      "plan_id": "0x2bc5f23393d99e7b780f44752e0e31272c8d4ae180d3cee4b363f1e6f49ffce5",
+      "simulation_hash": "0xa9b15ede4fbf5cd4176646696431270acaf1f41514a1c409b70a33bd1435a5b8",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/onchain_intents/metamask_delegations_delegate_scope.json",
+        "artifacts/onchain_intents/ens_ens_publish.json",
+        "artifacts/onchain_intents/lido_yield_route.json"
+      ],
+      "partner_statuses": {
+        "SelfProtocol": "awaiting_credentials",
+        "Venice": "awaiting_credentials",
+        "MetaMask Delegations": "prepared_contract_call",
+        "ENS": "prepared_contract_call",
+        "Lido": "prepared_contract_call",
+        "Uniswap": "awaiting_credentials",
+        "Status L2": "awaiting_credentials"
+      },
+      "created_at": "2026-03-19T03:50:48+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:48+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "identity_state",
+          "description": "Names, wallets, manifests, and verification proofs.",
+          "score": 95
+        },
+        {
+          "name": "permissions",
+          "description": "Which principals can act on which rails.",
+          "score": 90
+        },
+        {
+          "name": "reputation_events",
+          "description": "Receipts, scores, and attestation updates.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Submission notes and public evidence links.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:48+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every repo action.",
+    "details": {
+      "plan_id": "0x0fe21189c267e53b80f5cf5241ab39d9768f80b8f28693bb621cfd02937d5731",
+      "action_count": 7
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:48+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0x0f1dc36cc3e333419b76335d9d19c97c8fb1f71c2f278efed0fcd4ed94c72834"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:48+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [
+        "SELF_PROTOCOL_API_KEY",
+        "SELF_VERIFICATION_URL",
+        "STATUS_RELAYER_URL",
+        "STATUS_RPC_URL",
+        "UNISWAP_API_KEY",
+        "UNISWAP_QUOTE_URL",
+        "VENICE_API_KEY",
+        "VENICE_CHAT_COMPLETIONS_URL",
+        "VENICE_MODEL"
+      ],
+      "artifact_count": 3
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:48+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Private Human Gate",
+      "track": "SelfProtocol",
+      "plan_id": "0x0fe21189c267e53b80f5cf5241ab39d9768f80b8f28693bb621cfd02937d5731",
+      "simulation_hash": "0x0f1dc36cc3e333419b76335d9d19c97c8fb1f71c2f278efed0fcd4ed94c72834",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/onchain_intents/metamask_delegations_delegate_scope.json",
+        "artifacts/onchain_intents/ens_ens_publish.json",
+        "artifacts/onchain_intents/lido_yield_route.json"
+      ],
+      "partner_statuses": {
+        "SelfProtocol": "awaiting_credentials",
+        "Venice": "awaiting_credentials",
+        "MetaMask Delegations": "prepared_contract_call",
+        "ENS": "prepared_contract_call",
+        "Lido": "prepared_contract_call",
+        "Uniswap": "awaiting_credentials",
+        "Status L2": "awaiting_credentials"
+      },
+      "created_at": "2026-03-19T03:51:48+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:18+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "identity_state",
+          "description": "Names, wallets, manifests, and verification proofs.",
+          "score": 95
+        },
+        {
+          "name": "permissions",
+          "description": "Which principals can act on which rails.",
+          "score": 90
+        },
+        {
+          "name": "reputation_events",
+          "description": "Receipts, scores, and attestation updates.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Submission notes and public evidence links.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:18+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every repo action.",
+    "details": {
+      "plan_id": "0x83c65147c765c452979c0f960702813bf08920c02944c53ce4ead79a61ea6470",
+      "action_count": 7
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:18+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0x9a7660a1c8e46641d07143da12d673d1962f674ee08100476104fa82ac610152"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:18+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [
+        "SELF_PROTOCOL_API_KEY",
+        "SELF_VERIFICATION_URL",
+        "STATUS_RELAYER_URL",
+        "STATUS_RPC_URL",
+        "UNISWAP_API_KEY",
+        "UNISWAP_QUOTE_URL",
+        "VENICE_API_KEY",
+        "VENICE_CHAT_COMPLETIONS_URL",
+        "VENICE_MODEL"
+      ],
+      "artifact_count": 3
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:18+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Private Human Gate",
+      "track": "SelfProtocol",
+      "plan_id": "0x83c65147c765c452979c0f960702813bf08920c02944c53ce4ead79a61ea6470",
+      "simulation_hash": "0x9a7660a1c8e46641d07143da12d673d1962f674ee08100476104fa82ac610152",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/onchain_intents/metamask_delegations_delegate_scope.json",
+        "artifacts/onchain_intents/ens_ens_publish.json",
+        "artifacts/onchain_intents/lido_yield_route.json"
+      ],
+      "partner_statuses": {
+        "SelfProtocol": "awaiting_credentials",
+        "Venice": "awaiting_credentials",
+        "MetaMask Delegations": "prepared_contract_call",
+        "ENS": "prepared_contract_call",
+        "Lido": "prepared_contract_call",
+        "Uniswap": "awaiting_credentials",
+        "Status L2": "awaiting_credentials"
+      },
+      "created_at": "2026-03-19T03:52:18+00:00"
+    }
   }
 ]
